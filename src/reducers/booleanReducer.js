@@ -3,7 +3,7 @@ const booleanReducer = (state = true, action) => {
     case 'SWITCH':
       return !state
     default:
-      return true
+      return state
   }
 }
 
